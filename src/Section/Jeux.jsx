@@ -6,7 +6,7 @@ import jeuximg from "../assets/game_titre.svg"
 export default function Jeux() {
   return (
     <div>
-      <div className="my-4">
+      <div className="my-5">
       <div className=""><img src={jeuximg} className="w-25" alt="..."/></div>
       </div>
       <CardGames />
