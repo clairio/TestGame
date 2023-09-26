@@ -7,3 +7,11 @@
     clip-path: polygon(100% 0, 100% 8%, 100% 100%, 75% 100%, 34% 100%, 10% 87%, 37% 0);
 
 }
+
+.cardnew {
+    background-color: transparent !important;
+    border: none !important;
+    background-image: url('../assets/card.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

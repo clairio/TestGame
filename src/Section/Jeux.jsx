@@ -6,8 +6,11 @@ import jeuximg from "../assets/game_titre.svg"
 export default function Jeux() {
   return (
     <div>
-      <div className="my-5">
-      <div className=""><img src={jeuximg} className="w-25" alt="..."/></div>
+      <div className="my-5 d-flex justify-content-between align-items-center">
+      <div className=""><img src={jeuximg} className="" height={'170px'} alt="..."/></div>
+      <div className="align-self-end">
+      <h1 className="text-start mb-5 line-jeux-sect">Populaire | à venir</h1>
+      </div>
       </div>
       <CardGames />
       <div className="d-flex justify-content-center mt-2">

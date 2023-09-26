@@ -29,6 +29,7 @@
 }
 
 .line-jeux-sect::after{
+  width: 150px;
   top: 120%;
   left: 2%;
 }

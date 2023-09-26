@@ -16,18 +16,11 @@ export default function CardGames() {
         <div key={i} className="col-lg-3 col-md-6 col-12">
           <div className="card my-2 rounded-2" >
             <div className="row g-0 row-reverse">
-              <div className="col-4 p-2 ">
-                <div className="row">
-                  <div className="col-12 d-flex">
-                    <img className="ms-4 mt-4" width={70} src={el.logo} alt="..." />
-                  </div>
-                  <div className="col-12">
-                    <div
-                      className="text-center mt-1 fw-bold me-4"
-                      style={{ width: "120px", fontSize: "11px" }}
-                    >
-                      PC | PS4 | XBOX
-                    </div>
+              <div className="col-5 ">
+                <div className="d-flex h-100 flex-column justify-content-center align-items-center">
+                <img  width={70} src={el.logo} alt="..." />
+                  <div className="mt-3">
+                  <img className="" width={90} src={Image.console} alt="..." />
                   </div>
                 </div>
               </div>
