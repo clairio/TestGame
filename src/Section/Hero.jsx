@@ -4,6 +4,7 @@ import gauche from "../assets/fleche-gauche.svg";
 import droite from "../assets/fleche-droite.svg";
 import miniMenu from "../assets/slidee.svg";
 
+
 export default function Hero() {
   return (
     <div className="my-5 hero">
@@ -34,9 +35,9 @@ export default function Hero() {
         </div>
         <div className="col-12 d-flex justify-content-center">
           <div className="menuHero d-flex justify-content-center position-relative" >
-           <div className="position-absolute py-3" style={{top:'100%;'}}>
-           <img src={miniMenu} width={55}  />
-           </div>
+            <div className="position-absolute py-3" style={{top:'100%;'}}>
+              <img src={miniMenu} width={55}  />
+            </div>
           </div>
         </div>
       </div>
