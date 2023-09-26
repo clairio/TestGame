@@ -1,7 +1,16 @@
 .hero {
     position: relative;
+    background-image: url('../assets/himage.jpg');
+    background-size: 100%;
+    
 }
 
+.heroleft {
+    background-image: url('../assets/heroLeft.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+
+}
 
  .gauche, .droite {
     position: absolute !important;

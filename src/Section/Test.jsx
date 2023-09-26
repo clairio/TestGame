@@ -5,7 +5,7 @@ import CardTest from '../components/CardTest'
 export default function Test() {
   return (
     <div>
-       <div className='mb-5'>
+       <div className='my-5'>
        <h1 className='text-center line'>Nos dérniers tests</h1>
        </div>
         <CardTest/>

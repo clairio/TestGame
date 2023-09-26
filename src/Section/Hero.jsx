@@ -16,26 +16,24 @@ export default function Hero() {
 
       <div className="row g-0 ">
     
-        <div className="col-6 d-flex h-100">
+        <div className="heroleft  col-6 d-flex h-100">
           <div
-            className="bg-secondary h-100 w-100"
+            className=" h-100 w-100"
             style={{ minHeight: "400px" }}
           >
             <div className="contenu p-5">
-              <h1 className="" style={{ fontFamily: "stretch pro" }}>
-                Bienvenue
-              </h1>
+              
             </div>
           </div>
         </div>
         <div className="col-6 d-flex h-100">
           <div
-            className="bg-secondary h-100 w-100"
+            className=" h-100 w-100"
             style={{ minHeight: "400px" }}
           ></div>
         </div>
         <div className="col-12 d-flex justify-content-center">
-          <div className="menuHero ">
+          <div className="menuHero d-flex justify-content-center" style={{height:0}}>
             <img src={miniMenu} width={75} />
           </div>
         </div>
