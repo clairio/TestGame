@@ -8,13 +8,18 @@ import './assets/Css/Bouton.css'
 import Jeux from './Section/Jeux'
 import Test from './Section/Test'
 import Hero from './Section/Hero'
+<<<<<<< HEAD
 import Footer from './Section/Footer'
 import Live from './Section/Live'
 import Podcast from './Section/Podcast'
+=======
+import Trailer from './Section/Trailer'
+>>>>>>> 7f90987936d086fb4b93d1daf827761929862826
 
 function App() {
   return (
     <div className='container-fluid principale'>
+<<<<<<< HEAD
       <Header/>
       <Hero/>
       <News/>
@@ -23,6 +28,15 @@ function App() {
       <Test/>
       <Jeux/>
       <Footer />
+=======
+    <Header/>
+    <Hero/>
+    <News/>
+    <Test/>
+    <Trailer/>
+    <Jeux/>
+       
+>>>>>>> 7f90987936d086fb4b93d1daf827761929862826
     </div>
   )
 }
