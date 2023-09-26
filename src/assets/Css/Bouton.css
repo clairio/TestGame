@@ -1,14 +1,12 @@
 .xboxbtn {
-    padding-top: 10px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-  
-    clip-path: polygon(90% 0, 100% 14%, 100% 100%, 75% 100%, 11% 100%, 0 83%, 0 0);
-    color: #e9f0e1; 
-    font-size: 12px;
-    background-color: #107C10; 
-    border-color: #107C10; 
+ height:40px;
+ padding-bottom: 8px;
+ width: 145px;
+  border: none;
+  background-color: transparent;
+    background-image: url('../btn_connect.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
     
 }
 

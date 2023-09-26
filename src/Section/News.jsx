@@ -7,7 +7,7 @@ export default function News() {
   return (
     <div className="" style={{margin:'150px 0'}}>
       <div className="d-flex justify-content-between align-items-center pb-3">
-        <div className=""><img src={ActuImg} alt="..."/></div>
+        <div className=""><img src={ActuImg} className="w-75" alt="..."/></div>
         <div>
           <button className="xboxbtnsm">tout voir</button>
         </div>

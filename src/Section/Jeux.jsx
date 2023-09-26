@@ -1,12 +1,13 @@
 import React from "react";
 import CardGames from "../components/CardGames";
 import pagina from "../assets/paginat.svg";
+import jeuximg from "../assets/game_titre.svg"
 
 export default function Jeux() {
   return (
     <div>
       <div className="my-4">
-        <h1 className="text-start mb-5 line-jeux-sect">Jeu populaire | à venir</h1>
+      <div className=""><img src={jeuximg} className="w-25" alt="..."/></div>
       </div>
       <CardGames />
       <div className="d-flex justify-content-center mt-2">
