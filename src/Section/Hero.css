@@ -1,13 +1,14 @@
 .hero {
     position: relative;
-    background-image: url('../assets/himage.jpg');
-    background-size: 100%;
+    background-image: url('../assets/himage.png');
+    background-size: cover;
+    background-position: center;
     
 }
 
 .heroleft {
     background-image: url('../assets/heroLeft.png');
-    background-size: 70%;
+    background-size: 78%;
     background-repeat: no-repeat;
 
 }
@@ -24,6 +25,3 @@
     right: -3% !important;
 }
 
-.menuHero {
-  transform: translate(0,-70px);
-}

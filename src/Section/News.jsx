@@ -2,11 +2,12 @@ import React from "react";
 import Cards from "../components/Cards";
 import testSary from '../assets/halo.png'
 import './new.css'
+import ActuImg from '../assets/Actua.png'
 export default function News() {
   return (
-    <div className="my-3">
+    <div className="" style={{margin:'150px 0'}}>
       <div className="d-flex justify-content-between align-items-center pb-3">
-        <h1 className="line">Mate un peu le <span className="xboxcolor">News</span> </h1>
+        <div className=""><img src={ActuImg} alt="..."/></div>
         <div>
           <button className="xboxbtnsm">tout voir</button>
         </div>

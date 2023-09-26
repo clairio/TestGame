@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import gauche from "../assets/fleche-gauche.svg";
 import droite from "../assets/fleche-droite.svg";
-import miniMenu from "../assets/menu-mini.svg";
+import miniMenu from "../assets/slidee.svg";
 
 export default function Hero() {
   return (
@@ -16,7 +16,7 @@ export default function Hero() {
 
       <div className="row g-0 ">
     
-        <div className="heroleft  col-6 d-flex h-100">
+        <div className="heroleft d-lg-block d-none col-lg-6 col-12 d-flex h-100">
           <div
             className=" h-100 w-100"
             style={{ minHeight: "400px" }}
@@ -26,15 +26,17 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="col-6 d-flex h-100">
+        <div className="col-lg-6 col-12 d-flex h-100">
           <div
             className=" h-100 w-100"
             style={{ minHeight: "400px" }}
           ></div>
         </div>
         <div className="col-12 d-flex justify-content-center">
-          <div className="menuHero d-flex justify-content-center" style={{height:0}}>
-            <img src={miniMenu} width={75} />
+          <div className="menuHero d-flex justify-content-center position-relative" >
+           <div className="position-absolute py-3" style={{top:'100%;'}}>
+           <img src={miniMenu} width={55}  />
+           </div>
           </div>
         </div>
       </div>
