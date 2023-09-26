@@ -1,0 +1,31 @@
+.xboxbtn {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    clip-path: polygon(90% 0, 100% 14%, 100% 100%, 75% 100%, 11% 100%, 0 83%, 0 0);
+    color: #e9f0e1; 
+    font-size: 12px;
+    background-color: #107C10; 
+    border-color: #107C10; 
+    
+}
+
+
+.xboxbtnsm {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    clip-path: polygon(90% 0, 100% 14%, 100% 100%, 75% 100%, 11% 100%, 0 83%, 0 0);
+    color: #e9f0e1; 
+    font-size: 12px;
+    background-color: #747a74; 
+    border-color: #747a74; 
+    
+}
+
+.xboxcolor {
+   color: #107C10 !important
+}
+

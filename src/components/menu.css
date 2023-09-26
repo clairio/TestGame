@@ -1,0 +1,28 @@
+.menu {
+  display: flex;
+}
+.menu li {
+  list-style: none;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.input-search-bar {
+  border-radius: 15px;
+  padding: 5px;
+  border:none;
+}
+
+.search-bar {
+ position: relative !important;
+}
+.search-bar .icon-search {
+    position: absolute !important;
+    top: -95%;
+    right: 13px;
+
+}
+
+.search-bar .icon-search svg {
+    width: 25px;
+}

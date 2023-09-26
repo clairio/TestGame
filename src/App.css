@@ -1,0 +1,26 @@
+@import url('https://fonts.cdnfonts.com/css/stretch-pro');
+.principale {
+  padding-left:5% !important;
+  padding-right: 5% !important;
+}
+
+
+.line {
+  position: relative;
+}
+
+.line::after {
+  margin: 0 !important;
+  padding: 0 !important;
+  content: "";
+  position: absolute;
+  background-image: url('./assets/lines.svg'); /* Remplacez 'votre-svg.svg' par le chemin de votre fichier SVG */
+  width: 200px; /* Définissez la largeur souhaitée */
+  height: 5px; /* Définissez la hauteur souhaitée */
+  display: block; 
+  background-size: 100% ;
+  background-repeat: no-repeat;
+  top: 120%;
+  right: 40%;
+  /* Assurez-vous que le pseudo-élément est un élément de bloc */
+}
