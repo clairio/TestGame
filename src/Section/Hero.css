@@ -1,0 +1,16 @@
+.hero {
+    position: relative;
+}
+
+
+ .gauche, .droite {
+    position: absolute !important;
+    top: 35%;
+}
+.gauche {
+    left: -3% !important;
+}
+
+.droite {
+    right: -3% !important;
+}

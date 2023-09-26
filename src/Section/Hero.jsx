@@ -1,11 +1,33 @@
 import React from "react";
+import "./Hero.css";
+import gauche from "../assets/fleche-gauche.svg";
+import droite from "../assets/fleche-droite.svg";
 
 export default function Hero() {
   return (
-    <div>
-      <div className="row h-100  align-items-stretch">
-        <div className="col-12 bg-secondary h-100 w-100">
-          <div style={{ height: "400px;" }}></div>
+    <div className="my-5 hero">
+      <div className="gauche">
+        <img src={gauche} width={50} />
+      </div>
+      <div className="droite">
+        <img src={droite} width={50} />
+      </div>
+      <div className="row g-0 ">
+        <div className="col-6 d-flex h-100">
+          <div
+            className="bg-secondary h-100 w-100"
+            style={{ minHeight: "400px" }}
+          >
+           <div className="contenu p-5">
+           <h1 className="" style={{fontFamily:'stretch pro'}}>Bienvenue</h1>
+           </div>
+          </div>
+        </div>
+        <div className="col-6 d-flex h-100">
+          <div
+            className="bg-secondary h-100 w-100"
+            style={{ minHeight: "400px" }}
+          ></div>
         </div>
       </div>
     </div>

@@ -18,10 +18,16 @@
 }
 .search-bar .icon-search {
     position: absolute !important;
-    top: -95%;
+    top: 5%;
     right: 13px;
+  
+}
+.search-bar input {
+    padding-left: 15px;
 
 }
+
+
 
 .search-bar .icon-search svg {
     width: 25px;
