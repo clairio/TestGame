@@ -5,7 +5,7 @@ import testimg from '../assets/dern_test.svg'
 
 export default function Test() {
   return (
-    <div>
+    <div className='pb-3'>
        <div className='my-5'>
        <div className=""><img src={testimg} className="" style={{width:'55%'}} alt="..."/></div>
        </div>

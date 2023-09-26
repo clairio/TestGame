@@ -26,11 +26,11 @@ const Sept = ()=>{
   ];
   return (
     <div>
-      <div className="row g-3">
+      <div className="row g-3  " style={{ minHeight:'320px'}}>
         {data.map((el, i) => (
-          <div key={i} className="col-lg-3 col-md-6 col-12" style={{ height: "330px" }}>
+          <div key={i} className="col-lg-3 col-md-6 col-12 d-flex align-items-stretch" >
             <div
-              className="card border-0 my-2 rounded-2 h-100 position-relative"
+              className="card w-100 h-100 border-0 my-2 rounded-2 h-100 position-relative"
               style={{
                 background: "url(" + el.src + ")",
                 backgroundSize: "100%",

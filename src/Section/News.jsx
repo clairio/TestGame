@@ -16,6 +16,10 @@ export default function News() {
         <div className="col-lg-7 col-12" >
           <div className="card top-new" style={{height:'93%'}}>
           <img src={testSary} className="card-img-top h-100 object-fit-cover" alt="..." />
+          <div className="text-new position-absolute p-4 text-white" style={{bottom:0,zIndex:'12'}}>
+            <h1>Les Jeux Xbox Optimisés pour la Xbox Series X :</h1>
+            <span className="fst-italic"> Une Expérience de Jeu Sans Précédent pour les joueurs qui veulent des visuels incroyable.</span>
+          </div>
           </div>
         </div>
         <div className="col-lg-5 col-12">

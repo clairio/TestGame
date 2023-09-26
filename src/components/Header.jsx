@@ -5,33 +5,28 @@ import ham from "../assets/ham.svg";
 
 export default function Header() {
   return (
-    <header className="py-4">
+    <div className="head" style={{marginBottom:'150px'}}>
+        <header className="py-4 position-fixed container-fluid principale">
       <div className="d-flex justify-content-between align-items-center m-0 p-0">
-     <div className="d-flex gap-3 align-items-center">
-     <div className="m-0 p-0 align-self-start">
+        <div className="d-lg-flex d-none gap-3 align-items-center">
+          <div className="m-0 p-0 align-self-start">
             <img
               src={logo}
-              className="d-lg-block d-none"
+              className=""
               height={30}
               alt="..."
             />
-            <img
-              src={logo}
-              className="d-block d-lg-none"
-              height={20}
-              alt="..."
-            />
+           
           </div>
-        <div className="menu-desk m-0 p-0 d-lg-block d-none align-self-end">
-        
-          <ul className="menu gap-3 p-0 align-items-end">
-            <li style={{ color: "#107C10" }}>Home</li>
-            <li>Actus</li>
-            <li>Tests</li>
-            <li>Sorties</li>
-          </ul>
+          <div className="menu-desk m-0 p-0 d-lg-block d-none align-self-end">
+            <ul className="menu gap-3 p-0 align-items-end">
+              <li style={{ color: "#107C10" }}>Home</li>
+              <li>Actus</li>
+              <li>Tests</li>
+              <li>Sorties</li>
+            </ul>
+          </div>
         </div>
-     </div>
         <div className="menu-mobile d-lg-none d-block">
           <svg
             width={55}
@@ -47,7 +42,12 @@ export default function Header() {
             />
           </svg>
         </div>
-
+        <img
+              src={logo}
+              className="d-block d-lg-none"
+              height={20}
+              alt="..."
+            />
         <div className="d-flex align-items-center">
           <div className="search-bar d-lg-block d-none">
             <div className="icon-search">
@@ -82,5 +82,6 @@ export default function Header() {
         </div>
       </div>
     </header>
+    </div>
   );
 }

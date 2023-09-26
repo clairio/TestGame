@@ -1,7 +1,10 @@
 .hero {
     position: relative;
     background-image: url('../assets/himage.png');
-    background-size: 100%;
+    background-size: 90%;
+    background-position: top right ;
+    background-repeat: no-repeat;
+    min-height: 400px;
     
 }
 
@@ -47,6 +50,7 @@
 .gamepass {
     position: relative;
     transform: translate(-18px,0);
+    cursor: pointer;
 }
 
 .textgps {

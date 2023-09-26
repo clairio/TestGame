@@ -33,3 +33,12 @@
 .search-bar .icon-search svg {
     width: 25px;
 }
+
+.position-fixed {
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+

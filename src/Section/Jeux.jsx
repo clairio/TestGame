@@ -5,7 +5,7 @@ import jeuximg from "../assets/game_titre.svg"
 
 export default function Jeux() {
   return (
-    <div>
+    <div className="pt-3">
       <div className="my-5 d-flex justify-content-between align-items-center">
       <div className=""><img src={jeuximg} className="" height={'170px'} alt="..."/></div>
       <div className="align-self-end">

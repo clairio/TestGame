@@ -13,15 +13,32 @@
 
 .xboxbtnsm {
     height:40px;
-    padding-bottom: 8px;
-    padding-right: 35px !important;
+    padding-bottom: 12px;
+
+    padding-right: 15px !important;
     width: 145px;
      border: none;
      background-color: transparent;
-       background-image: url('../btn_see.svg');
+       background-image: url('../btn_see.png');
        background-size: contain;
        background-repeat: no-repeat;
+       position: relative;
+       color: rgba(31, 29, 29, 0.829) !important;
+     
     
+}
+
+.xboxbtnsm::after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    width: 25px;
+    height: 25px;
+    background-image: url('../fleche_btn.svg');
+    background-repeat: no-repeat;
+    right: 10%;
+   
+
 }
 
 .xboxcolor {
