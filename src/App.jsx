@@ -8,6 +8,7 @@ import './assets/Css/Bouton.css'
 import Jeux from './Section/Jeux'
 import Test from './Section/Test'
 import Hero from './Section/Hero'
+import Trailer from './Section/Trailer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Hero/>
     <News/>
     <Test/>
+    <Trailer/>
     <Jeux/>
        
     </div>
