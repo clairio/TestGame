@@ -6,7 +6,7 @@ export default function Jeux() {
   return (
     <div>
       <div className="my-4">
-        <h1 className="text-center mb-5 line">Jeu populaire | à venir</h1>
+        <h1 className="text-start mb-5 line-jeux-sect">Jeu populaire | à venir</h1>
       </div>
       <CardGames />
       <div className="d-flex justify-content-center mt-2">

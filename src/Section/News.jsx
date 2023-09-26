@@ -12,12 +12,12 @@ export default function News() {
         </div>
       </div>
       <div className="row mt-4">
-        <div className="col-lg-8 col-12" >
+        <div className="col-lg-7 col-12" >
           <div className="card top-new" style={{height:'93%'}}>
           <img src={testSary} className="card-img-top h-100 object-fit-cover" alt="..." />
           </div>
         </div>
-        <div className="col-lg-4 col-12">
+        <div className="col-lg-5 col-12">
           <Cards />
         </div>
       </div>

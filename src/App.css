@@ -5,11 +5,11 @@
 }
 
 
-.line {
+.line ,.line-jeux-sect{
   position: relative;
 }
 
-.line::after {
+.line::after,.line-jeux-sect::after {
   margin: 0 !important;
   padding: 0 !important;
   content: "";
@@ -20,7 +20,15 @@
   display: block; 
   background-size: 100% ;
   background-repeat: no-repeat;
+ 
+  /* Assurez-vous que le pseudo-élément est un élément de bloc */
+}*
+ .line::after{
   top: 120%;
   right: 40%;
-  /* Assurez-vous que le pseudo-élément est un élément de bloc */
+}
+
+.line-jeux-sect::after{
+  top: 120%;
+  left: 2%;
 }

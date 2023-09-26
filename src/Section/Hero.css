@@ -16,7 +16,5 @@
 }
 
 .menuHero {
-    position: absolute;
-    bottom: 4%;
-    left: 45%;
+  transform: translate(0,-70px);
 }
