@@ -14,3 +14,9 @@
 .droite {
     right: -3% !important;
 }
+
+.menuHero {
+    position: absolute;
+    bottom: 4%;
+    left: 45%;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import gauche from "../assets/fleche-gauche.svg";
 import droite from "../assets/fleche-droite.svg";
+import miniMenu from "../assets/menu-mini.svg"
 
 export default function Hero() {
   return (
@@ -11,6 +12,9 @@ export default function Hero() {
       </div>
       <div className="droite">
         <img src={droite} width={50} />
+      </div>
+      <div className="menuHero">
+        <img src={miniMenu} width={75} />
       </div>
       <div className="row g-0 ">
         <div className="col-6 d-flex h-100">
