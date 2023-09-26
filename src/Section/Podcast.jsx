@@ -1,11 +1,20 @@
 import React from "react";
 import './podcast.css'
+import pod from '../assets/podcast.png'
 
 export default function Podcast() {
   return (
     <div className=" d-flex flex-column " style={{marginTop:"100px",borderBottom:"1px solid rgba(16, 124, 16, 0.4)"}} >
-        <span className="p-2 fw-bold text_u" style={{textTransform:"uppercase",fontSize:"50px"}}> Les Derniers Podcasts </span>
-        <span className="separator border">  </span>
+        <div className="my-5 d-flex justify-content-between align-items-center">
+        <div className="">
+          <img src={pod} className="" height={"170px"} alt="..." />
+        </div>
+        <div className="align-self-end">
+          <h1 className="text-start mb-5 line-jeux-sect">
+            Populaire | à venir
+          </h1>
+        </div>
+      </div>
         <div className="d-flex p-2">
 
             <div className="p-2 cart_box_shad" style={{width:'200px'}}>

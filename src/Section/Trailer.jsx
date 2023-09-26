@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "../assets/Image";
+import './Trailer.css'
 
 export default function Trailer() {
   return (
     <div className="my-5 py-5">
-      <div className="row">
+      <div className="row trailer">
         <div className="col-6">
           <div className="content p-4">
             <h4 className="fw-bold mb-3">

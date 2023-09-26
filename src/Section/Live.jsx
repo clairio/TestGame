@@ -12,7 +12,7 @@ import {
 export default function App() {
   return (
     <div className='d-flex justify-content-center align-items-center'>
-      <MDBCard className='w-100'>
+      <MDBCard className='w-75'>
         <MDBCardBody>
           <MDBCardTitle>Live</MDBCardTitle>
           <MDBCardText>
