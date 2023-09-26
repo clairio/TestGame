@@ -1,6 +1,6 @@
 import React from "react";
 import './podcast.css'
-import pod from '../assets/podcast.png'
+import pod from '../assets/pod.png'
 
 export default function Podcast() {
   return (
@@ -9,11 +9,7 @@ export default function Podcast() {
         <div className="">
           <img src={pod} className="" height={"170px"} alt="..." />
         </div>
-        <div className="align-self-end">
-          <h1 className="text-start mb-5 line-jeux-sect">
-            Populaire | à venir
-          </h1>
-        </div>
+        
       </div>
         <div className="d-flex p-2">
 
