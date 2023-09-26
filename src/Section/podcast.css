@@ -1,0 +1,33 @@
+.cart_box_shad{
+    transition: all 0.3s;
+    cursor: pointer;
+    border: 1px solid rgba(16, 124, 16, 0.4);
+    margin-right: 20px;
+    /* border-radius: 5px; */
+    color: rgb(80, 78, 78);
+    text-decoration: underline;
+    text-underline-offset: -7px;
+    text-underline-position: under;
+    text-decoration-color: rgba(16, 124, 16, 0.2);
+    text-decoration-thickness: 7px;
+    text-decoration-skip-ink: none;
+}
+
+.text_u{
+
+    text-decoration: underline;
+    text-underline-offset: -30px;
+    text-underline-position: under;
+    text-decoration-color: rgba(197, 12, 214, 0.322);
+    text-decoration-thickness: 30px;
+    text-decoration-skip-ink: none;
+}
+
+.cart_box_shad:hover{
+    background-color: rgb(210, 240, 210);
+    color: rgb(54, 53, 53);
+    z-index: 10000;
+    transform: scale(1.1);
+    text-decoration-color: rgba(235, 220, 15, 0.9);
+    box-shadow: rgba(16, 124, 16, 0.4) -5px 5px, rgba(16, 124, 16, 0.3) -10px 10px, rgba(16, 124, 16, 0.2) -15px 15px, rgba(16, 124, 16, 0.1) -20px 20px, rgba(16, 124, 16, 0.05) -25px 25px;
+}

@@ -5,6 +5,7 @@ import droite from "../assets/fleche-droite.svg";
 import miniMenu from "../assets/slidee.svg";
 import btngamepass from "../assets/btngamepass.png";
 
+
 export default function Hero() {
   return (
     <div className="my-5 hero">
