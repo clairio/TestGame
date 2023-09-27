@@ -15,7 +15,7 @@ import Trailer from './Section/Trailer'
 
 function App() {
   return (
-    <div className='container-fluid principale'>
+    <div className='container-lg container-fluid principale'>
       <Header/>
       <Hero/>
       <News/>

@@ -9,6 +9,7 @@ import starfieldlogo from './Starfield logo.svg'
 import console from './console.png'
 import bethesda from './Bethesda.svg'
 import gamepass from './GamePass.png'
+import gamess from './gaaa.jpg'
 
 
-export default {gamepass,forzalogo, forzawall, warlogo, warwall, witchlogo,witchwall,starfield,starfieldlogo,console,bethesda}
+export default {gamess, gamepass,forzalogo, forzawall, warlogo, warwall, witchlogo,witchwall,starfield,starfieldlogo,console,bethesda}

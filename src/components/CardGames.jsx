@@ -14,7 +14,7 @@ export default function CardGames() {
     <div className="row">
       {data.map((el, i) => (
         <div key={i} className="col-lg-3 col-md-6 col-12">
-          <div className="card my-2 rounded-2" >
+          <div className="card cardahafa my-2 rounded-2" >
             <div className="row g-0 row-reverse">
               <div className="col-5 ">
                 <div className="d-flex h-100 flex-column justify-content-center align-items-center">

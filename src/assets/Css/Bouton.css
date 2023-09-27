@@ -1,19 +1,20 @@
 .xboxbtn {
  height:40px;
- padding-bottom: 8px;
+
  width: 145px;
   border: none;
   background-color: transparent;
     background-image: url('../btn_connect.svg');
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: top;
     
 }
 
 
 .xboxbtnsm {
     height:40px;
-    padding-bottom: 12px;
+    padding-bottom: 7px;
 
     padding-right: 15px !important;
     width: 145px;

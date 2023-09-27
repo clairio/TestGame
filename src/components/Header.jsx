@@ -7,9 +7,10 @@ export default function Header() {
   return (
     <div className="head" style={{marginBottom:'150px'}}>
         <header className="py-4 position-fixed container-fluid principale">
-      <div className="d-flex justify-content-between align-items-center m-0 p-0">
+    <div className="container-lg contaier-fluid">
+    <div className="d-flex justify-content-between align-items-center m-0 p-0">
         <div className="d-lg-flex d-none gap-3 align-items-center">
-          <div className="m-0 p-0 align-self-start">
+          <div className="m-0 p-0 align-self-start" style={{transform:'translate(0,-8px)'}}>
             <img
               src={logo}
               className=""
@@ -81,6 +82,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+    </div>
     </header>
     </div>
   );

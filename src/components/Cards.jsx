@@ -2,8 +2,10 @@ import React from "react";
 import testSary from "../assets/test.jpeg";
 import "./Cards.css";
 import "../assets/Css/Bouton.css";
+import Image from '../assets/Image'
+
 export default function Cards() {
-  const data = ["1", "2", "3", "4"];
+  const data = [Image.starfield, Image.forzawall, Image.witchwall ,Image.gamess];
   return (
     <div className="row">
       {data.map((el, i) => (
@@ -24,7 +26,7 @@ export default function Cards() {
                 </div>
               </div>
               <div className="img-new col-5">
-                <img src={testSary} className="card-img-top h-100" alt="..." />
+                <img src={el} className="card-img-top h-100" alt="..." />
               </div>
             </div>
           </div>

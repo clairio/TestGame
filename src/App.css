@@ -33,3 +33,10 @@
   top: 120%;
   left: 2%;
 }
+
+
+.cardahafa {
+  border: 0.5px solid #00000054 !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}

@@ -1,0 +1,13 @@
+
+
+.footer{
+    background-image: url('../assets/footer.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 5rem;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 4rem;
+
+}
